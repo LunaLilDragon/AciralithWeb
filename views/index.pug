@@ -1,0 +1,19 @@
+extends layout.pug
+
+mixin service_button(icon_source, link)
+  td
+    a.button(href=link, target='_blank')
+      img(src=icon_source).icon
+
+//- Additional Style Sheets
+block style
+  link(rel="stylesheet", href="/style/index-desktop.css")
+
+block content
+    h1 Aciralith 
+    p Truely enfold your imaginations in our far and wide world of Aciralith.
+    table.button-holder
+      tr
+        +service_button("/img/discord_icon.png", links.discord)
+        +service_button("/img/twitter_icon.png", links.twitter)
+        +service_button("/img/facebook_icon.png", links.facebook)

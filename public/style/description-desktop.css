@@ -1,0 +1,13 @@
+#case{
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background: #000000aa;
+    color: #ccc;
+    text-shadow: 0 0 1em black;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 120%;
+}

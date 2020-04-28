@@ -1,0 +1,82 @@
+:root{
+    background: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background: white;
+    box-shadow: -0.2em 0.2em 1em black;
+    float: right;
+    border-radius: 0 0 0 1em;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 1rem;
+}
+nav>ul>li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+nav>ul>li>a{
+    display: block;
+    color: black;
+    padding: 1rem;
+}
+nav>ul>li:hover{
+    background: #ff6663;
+}
+#case h1{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+#case p{
+    padding: 0;
+    margin: 0.2em;
+    width: auto;
+}
+
+#case a{
+    color: #969Aff;
+}
+
+.button-holder{
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 3em;
+    height: auto;
+    margin: -1em;
+}
+
+.button {
+    background-color: rgba(255, 100, 120, 0.8);
+    border: none;
+    color: white !important;
+    padding: 1.6em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}

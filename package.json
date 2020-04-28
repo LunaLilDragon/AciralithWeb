@@ -1,0 +1,19 @@
+{
+  "name": "Aciralith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "ts-node app.ts",
+    "preinstall": "tsc",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

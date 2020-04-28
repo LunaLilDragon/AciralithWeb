@@ -1,0 +1,15 @@
+
+#case{
+    position: relative;
+    background: rgba(0,0,0, 0.5);
+    color: rgba(230, 230, 230);
+    padding: 1em;
+
+    float: right;
+    margin-right: 4em;
+    top: 40%;
+    width: 30em;
+
+    justify-content: space-around;
+    text-align: center;
+}
