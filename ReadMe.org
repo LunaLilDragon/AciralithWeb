@@ -1,0 +1,25 @@
+#+TITLE: Aciralith Web
+#+AUTHOR: LunaLilDragon
+
+* Aciralith Web
+This is the web page of Aciralith, you are only allowed to copy this repositories when you change the context and as well the background image.
+** How to run this Server
+This server runs by default on port 8080 so you have to also remap the ports with a proxy (for example Nginx)
+The Server is configurated for a really fast installation.
+*** Install NodeJS
+- You have to install NodeJS you will find more information on the [[http://nodejs.org/][Nodejs Official Webpage]]*** Install PM2
+#+BEGIN_SRC shell
+npm i -g pm2
+#+END_SRC 
+*** Install PM2
+#+BEGIN_SRC shell
+npm i -g pm2
+#+END_SRC
+*** Autoinstall Server
+#+BEGIN_SRC shell
+npm install
+#+END_SRC
+*** Start Server
+#+BEGIN_SRC shell
+pm2 start ecosystem.yml
+#+END_SRC
